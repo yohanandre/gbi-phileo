@@ -1,0 +1,47 @@
+.winning-section {
+  padding: 50px 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.winning-title {
+  font-size: 35px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-weight: 700;
+}
+
+.winning-content {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 40px;
+  align-items: center;
+}
+
+.winning-text {
+  flex: 1;
+  text-align: center;
+}
+
+.winning-paragraph {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.winning-video {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.winning-video iframe {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+

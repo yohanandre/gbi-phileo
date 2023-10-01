@@ -1,0 +1,23 @@
+/* OfficeHours.css */
+
+.office-hours {
+  display: flex;
+  justify-content: center; /* Menengahkan secara horizontal */
+  align-items: center; /* Menengahkan secara vertikal */
+  text-align: left;
+  min-height: 50vh;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.office-hours-title {
+  text-align: center; /* Judul berada di sebelah kiri */
+  border-right: 1px solid black; /* Garis vertikal berwarna hitam */
+  padding-right: 20px; /* Jarak antara judul dan deskripsi */
+  margin-right: 20px; /* Jarak antara judul dan garis vertikal */
+  font-size: 35px;
+}
+
+.office-hours-content {
+  text-align: left; /* Deskripsi rata kiri */
+  font-size: 18px;
+}

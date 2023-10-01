@@ -1,0 +1,37 @@
+.HeaderDukunganDoa {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding-left: 20px;
+    overflow: hidden;
+    margin-top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+  }
+  
+  .header-content-dua {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .welcome-dua {
+    font-size: 35px;
+    font-weight: 200;
+    margin-bottom: 3px;
+    color: white;
+  }
+  
+  .p-title-dua {
+    font-size: 65px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: white;
+  }
+  

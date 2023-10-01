@@ -1,0 +1,64 @@
+.agenda-bulanan-section {
+    padding: 50px 0;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    min-height: 100vh;
+  }
+  
+  .agenda-title {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .poster-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 20px;
+  }
+  
+  .poster {
+    text-align: justify;
+    max-width: 400px;
+  }
+  
+  .poster img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .poster-title {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .poster-description {
+    font-size: 18px;
+    margin: 10px 0;
+    color: soft black;
+  }
+  
+  .daftar-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+  }
+  
+  .daftar-button:hover {
+    background-color: black;
+    color: white;
+  }
+  

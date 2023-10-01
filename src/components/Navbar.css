@@ -1,0 +1,56 @@
+/* Navbar Styling */
+.navbar {
+  background-color: transparent;
+  color: white;
+  padding: 10px 0;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  position: fixed;
+  z-index: 1000;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar.scrolled {
+  background-color: black;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-link {
+  margin: 0 20px;
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+  position: relative;
+}
+
+.navbar-link:before {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease-in-out;
+}
+
+.navbar-link:hover:before {
+  width: 100%;
+}
+
+.logo-image {
+  max-height: 40px;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.navbar-nav {
+  text-align: center;
+}

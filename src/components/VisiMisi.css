@@ -1,0 +1,95 @@
+/* VisiMisi.css */
+
+/* Section styling */
+.visi-misi-section {
+  padding: 80px 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Section title */
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Vision and Mission columns */
+.visi, .misi {
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.visi h3, .misi h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.visi p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.misi ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.misi li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  position: relative;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+/* Animation keyframes */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.misi li:nth-child(1) {
+  animation: fadeInLeft 0.8s 0.2s forwards;
+}
+
+.misi li:nth-child(2) {
+  animation: fadeInLeft 0.8s 0.4s forwards;
+}
+
+.misi li:nth-child(3) {
+  animation: fadeInLeft 0.8s 0.6s forwards;
+}
+
+.misi li:nth-child(4) {
+  animation: fadeInLeft 0.8s 0.8s forwards;
+}
+
+.misi li:nth-child(5) {
+  animation: fadeInLeft 0.8s 1s forwards;
+}
+
+.visi p:hover {
+  color: gold; /* Ganti warna yang Anda inginkan */
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.misi li:hover {
+  color: gold; /* Ganti warna yang Anda inginkan */
+  transition: color 0.3s;
+  cursor: pointer;
+}

@@ -1,0 +1,62 @@
+/* FormDoa.css */
+
+.form-container {
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.title-outside-container {
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  padding-top: 30px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 18px;
+  color: black;
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.PerihalYangInginDiDoakan-input {
+  height: 100px;
+}
+
+.submit-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: bold;
+}
+
+.submit-button:hover {
+  background-color: black;
+  color: white;
+}

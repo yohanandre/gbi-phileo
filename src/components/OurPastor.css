@@ -1,0 +1,42 @@
+.our-pastor-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.pastor-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pastor-image {
+  flex: 1;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.pastor-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pastor-details {
+  flex: 1;
+  text-align: justify;
+  padding-left: 20px;
+}
+
+.pastor-title {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 35px;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.pastor-bio {
+  font-size: 18px;
+}

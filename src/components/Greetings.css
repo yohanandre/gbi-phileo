@@ -1,0 +1,39 @@
+.greetings-section {
+  padding: 50px 0;
+  text-align: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.greetings-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.leader-image {
+  flex: 0.3; /* Mengurangi lebar gambar */
+  text-align: center;
+  margin-right: 20px; /* Spasi antara gambar dan teks */
+  padding-right: 20px; /* Spasi antara gambar dan teks */
+  border-right: 2px solid grey; /* Garis vertikal pemisah */
+}
+
+.leader-image img {
+  max-width: 200px; /* Ukuran gambar yang lebih kecil */
+  height: auto;
+  border-radius: 50%;
+}
+
+.leader-text {
+  flex: 0.7; /* Mengurangi lebar teks */
+  font-size: 18px;
+  text-align: justify;
+  margin: 0;
+  padding-left: 20px; /* Spasi antara gambar dan teks */
+}

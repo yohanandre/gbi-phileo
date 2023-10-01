@@ -1,0 +1,57 @@
+/* LUP.css */
+.lup-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  min-height: 100vh;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.lup-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lup-img {
+  max-width: 90%;
+  height: auto;
+}
+
+.lup-text {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+.lup-title {
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.lup-description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.join-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: bold;
+}
+
+.join-button:hover {
+  background-color: black;
+  color: white;
+}

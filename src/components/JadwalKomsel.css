@@ -1,0 +1,9 @@
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  font-size: 2rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

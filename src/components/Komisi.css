@@ -1,0 +1,79 @@
+/* Komisi.css */
+
+.komisi-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.komisi-title {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: black;
+  font-weight: 700;
+}
+
+.komisi-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+/* Subtitle styling */
+.komisi-subtitle {
+  font-size: 35px;
+  margin: 10px 0;
+  text-align: left; /* Rata kiri untuk semua subtitle */
+}
+
+/* Description styling */
+.komisi-description {
+  font-size: 18px;
+  text-align: left; /* Rata kiri untuk semua deskripsi */
+}
+
+/* Komisi Godly Generation dan WBI rata kanan */
+.komisi-item.komisi-item-right .komisi-subtitle,
+.komisi-item.komisi-item-right .komisi-description {
+  text-align: right; /* Rata kanan untuk item dengan kelas komisi-item-right (Godly Generation dan WBI) */
+}
+
+.komisi-image {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+@media (min-width: 768px) {
+  .komisi-item {
+    flex-direction: row;
+  }
+
+  .komisi-image-left,
+  .komisi-image-right {
+    flex: 1;
+  }
+
+  .komisi-content-left {
+    flex: 1;
+    text-align: left;
+  }
+
+  .komisi-content-right {
+    flex: 1;
+    text-align: right;
+  }
+
+  .komisi-image-left {
+    margin-right: 20px;
+  }
+
+  .komisi-image-right {
+    margin-left: 20px;
+  }
+}
